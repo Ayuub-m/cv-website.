@@ -6,7 +6,7 @@
     <title>Cv Website</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
+    
     <style type="text/css">
 
         .main_div{
@@ -23,14 +23,16 @@
         }
 
         .left_box{
-            background-color: grey;
-            padding: 80px 50px; 
+            background-color: rgb(179, 179, 179);
+            padding: 80px 50px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
 
         .left_box_content_main{
             display: flex;
             flex-direction: column;
             gap: 30px;
+            padding-top: 200px;
             
         }
 
@@ -54,7 +56,8 @@
             background-color: seashell;
             display: flex;
             flex-direction: column;
-            padding: 80px 50px;
+            padding: 200px 50px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
 
         .inside_contact a{
@@ -71,6 +74,42 @@
             display: flex;
             flex-direction: column;
         }
+
+        .name {
+            width: 100%;
+            max-width: -5000px;
+            height: 70px;
+            background-color: rgb(112, 135, 143);
+            text-align: center;
+            padding: 40px 40px -5px;
+            margin: 0 auto;
+            box-shadow: 10px 10px 0px rgb(0 0 0 /40%), -10px -10px 0px rgb(0 0 0 / 40%);
+            color: rgb(33, 97, 119);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .nm{
+            padding-bottom: 100px;
+        }
+
+        .title1{
+            padding-top: 100px;
+            color: rgb(33, 97, 119);
+        }
+
+        .bi{
+            padding: 0px 20px 0px 0px;
+        }
+
+        .title{
+            color: rgb(33, 97, 119);
+        }
+        .nm{
+            color: rgb(33, 97, 119);
+            text-align: center;
+            margin: 10px;
+        }
     </style>
 </head>
 
@@ -80,11 +119,11 @@
         <div class="cv_div">
             <div class="left_box">
                 <div class="left_box_content_main">
-                    <h2>Ayuub Mahmud</h2>
+
                     <div class="inside_boxes">
                         <img class="profile_img" src="Random2.png" alt="">
                     </div>
-                    <h2>Contact</h2>
+                    <h2 class="title">Contact</h2>
                     <div class="inside_boxes">
                         <i class="bi bi-envelope"></i>
                         <a href="mailto:mahmudayuub@gmail.com">mahmudayuub@gmail.com</a>
@@ -101,52 +140,56 @@
                         </i><i class="bi bi-github"></i>
                         <a href="https://github.com/Ayuub-m">Github</a>
                     </div>
-                    <h2>skills</h2>
+                    <h2 class="title">skills</h2>
                     <div class="inside_boxes2">
                         
                         
-                        <h3>problem solving</h3>
-                        <p>I have developed a foundational skill for addressing tricky situations,<br> by dividing them into smaller, more digestible bits,<br> which makes finding a solution much simpler.</p>
-                        
-                        <h3>Technology skills</h3>
-                        <p>I have acquired a solid foundation in Python, HTML and CSS.<br> Additionally, I proactively try to improve my technical skills by using online resources,<br> forums, and educational videos to comprehend and solve various IT problems.</p>
+                        <h3 class="title">Education</h3>
+                        <p>T-level Digital Production, Design and Development<br>
 
-                        <h3>Leadership</h3>
-                        <p>I am highly committed to delivering results that drive innovation and development.<br> Additionally, I place great importance on earning trust by actively listening and <br> treating others with respect.</p>
+                            St John Bosco College -- 09/2023 – present<br>
+                            <br>
 
-                        <h3>Teamwork and Collaboration</h3>
-                        <p>I am good at working with classmates on group projects, sharing tasks fairly,<br> and making sure everyone's voice gets heard so we can do our best work together.</p>
+                            GCSEs<br>
+                            Harris Academy Battersea -- 09/2018 – 06/2023<br>
+                            •Maths - 6<br>
+                            •Combined Science - 6<br>
+                            •English Literature - 5<br>
+                            •English Language - 4<br>
+                            •Geography - 4</p>
                     </div>
                 </div>
             </div>
             <div class="right_box">
                 <div class="right_box_content_main">
+                    <h1 class="nm">Ayuub Mahmud</h1>
+                    <h2 class="name">Student</h2>
                     <div class="bio">
-                        <h2>Profile</h2>
+                        <h2 class="title1">Profile</h2>
                         <hr>
                         <p>As a motivated and enthusiastic student, I am eager to launch my career in technology with an industry leader. I bring a solid foundation in Computer Science, Python, HTML and CSS along with a commitment to continual learning and personal growth. My goal is to translate my academic experiences and achievements into a meaningful role within this company, contributing to the company as I advance my skills.</p>
                         <hr>
 
-                        <h2>skills</h2>
+                        <h2 class="title">skills</h2>
                         
                         
-                        <h3>problem solving</h3>
+                        <h3 class="title">problem solving</h3>
                         <p>I have developed a foundational skill for addressing tricky situations,<br> by dividing them into smaller, more digestible bits,<br> which makes finding a solution much simpler.</p>
                         
-                        <h3>Technology skills</h3>
+                        <h3 class="title">Technology skills</h3>
                         <p>I have acquired a solid foundation in Python, HTML and CSS.<br> Additionally, I proactively try to improve my technical skills by using online resources,<br> forums, and educational videos to comprehend and solve various IT problems.</p>
 
-                        <h3>Leadership</h3>
+                        <h3 class="title">Leadership</h3>
                         <p>I am highly committed to delivering results that drive innovation and development.<br> Additionally, I place great importance on earning trust by actively listening and <br> treating others with respect.</p>
 
-                        <h3>Teamwork and Collaboration</h3>
+                        <h3 class="title">Teamwork and Collaboration</h3>
                         <p>I am good at working with classmates on group projects, sharing tasks fairly,<br> and making sure everyone's voice gets heard so we can do our best work together.</p>
                         <hr>
 
-                        <h2>Experience</h2>
+                        <h2 class="title">Experience</h2>
                         
-                        <h3>Junior Software Developer</h3>
-                        <h4>Doxabeta   ----   01/2024 – 02/2024</h4>
+                        <h3 class="title">Junior Software Developer</h3>
+                        <h4 class="title">Doxabeta   ----   01/2024 – 02/2024</h4>
                         <p>• Acquired valuable insights into workplace dynamics and professional expectations.<br> 
                             • Assigned a project with my team to redesign the company's website under the guidance of stakeholders, learning about business requirements and more.<br>
                             • Learned how to use Webflow to enhance website design skills.<br>
@@ -154,27 +197,24 @@
                             • Created two pages for the website, contributing directly to the project's success.<br>
                             • Demonstrated strong teamwork and goal-setting abilities throughout the project.
 
-                            <h4>07/2024 - 07/2024</h4>
+                            <h4 class="title">07/2024 - 07/2024</h4>
                             • Returned for a second placement which was 3 weeks where i was taught about the systems used by the company e.g. Internal management systems<br>
                             • Also completed a mini project where i had to make my own cv website using my skills such as HTML and CSS.<br>
                             • Futhermore, i was taught on how to work with clients using gap analysis and As is - To be.
 
-                            <h4>Placer work readiness program -- 06/2024 – 06/2024</h4>
+                            <h4 class="title">Placer work readiness program -- 06/2024 – 06/2024</h4>
                             • CPD-accredited work readiness Programme that ensured i developed the critical employability skills to be ready for the world of work.<br>
                             • Course contains 15 skills such as project management, customer service and more.<br>
                             • Certifications can be found on my LinkedIn profile at the top of this page.
 
-                            <h4>St John Bosco College Enrichment Program -- 10/2023</h4>
+
+                            <h4 class="title">St John Bosco College Enrichment Program -- 10/2023</h4>
                             • Played a key role in advocating for T-Levels to future students and parents, explaining the real-world advantages and opportunities.<br>
                             • Joined forces with school representatives in hosting informational sessions for potential students and their families.<br>
                             • Deepened my own grasp of T-Levels and improved my public speaking and persuasion skills through active involvement.
                             </p>
                             <hr>
-
-                            <h3>Education</h3>
-                            <p></p>
-
-                        
+                    
                     </div>
                 </div>
             </div>
